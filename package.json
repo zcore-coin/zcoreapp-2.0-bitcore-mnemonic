@@ -35,7 +35,7 @@
   "license": "MIT",
   "devDependencies": {
     "assert": "^1.4.1",
-    "bitcore-build": "https://github.com/bitpay/bitcore-build.git#1023e8a99cd42b9241ccafe8e34c52f308c10284",
+    "bitcore-build": "https://github.com/zcore-coin/zcoreapp-2.0-bitcore-build.git#1023e8a99cd42b9241ccafe8e34c52f308c10284",
     "brfs": "^2.0.1",
     "mocha": "^5.2.0"
   },
