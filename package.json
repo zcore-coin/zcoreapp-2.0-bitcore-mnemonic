@@ -1,12 +1,13 @@
 {
   "name": "bitcore-mnemonic",
-  "version": "1.7.0",
+  "version": "8.1.1",
   "description": "BIP39 Mnemonics implemented for Bitcore.",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
     "lint": "gulp lint",
     "test": "gulp test",
+    "test:ci": "npm run test",
     "coverage": "gulp coverage",
     "build": "gulp"
   },
@@ -22,7 +23,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/zcore-coin/zcoreapp-2.0-bitcore-mnemonic"
+    "url": "https://github.com/zcore-coin/zcoreapp-2.0-bitcore-mnemonic.git"
   },
   "keywords": [
     "bitcoin",
@@ -35,8 +36,10 @@
   "license": "MIT",
   "devDependencies": {
     "assert": "^1.4.1",
-    "bitcore-build": "https://github.com/zcore-coin/zcoreapp-2.0-bitcore-build.git#1023e8a99cd42b9241ccafe8e34c52f308c10284",
+    "bitcore-build": "https://github.com/zcore-coin/zcoreapp-2.0-bitcore-build#1023e8a99cd42b9241ccafe8e34c52f308c10284",
     "brfs": "^2.0.1",
+    "chai": "^4.2.0",
+    "gulp": "^4.0.0",
     "mocha": "^5.2.0"
   },
   "dependencies": {
