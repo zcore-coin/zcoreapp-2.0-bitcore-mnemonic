@@ -22,7 +22,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore-mnemonic.git"
+    "url": "https://github.com/zcore-coin/zcoreapp-2.0-bitcore-mnemonic"
   },
   "keywords": [
     "bitcoin",
@@ -40,10 +40,10 @@
     "mocha": "^5.2.0"
   },
   "dependencies": {
-    "bitcore-lib": "^0.16.0",
+    "bitcore-lib": "https://github.com/zcore-coin/zcoreapp-2.0-bitcore-lib",
     "unorm": "^1.4.1"
   },
   "peerDependencies": {
-    "bitcore-lib": "^0.16.0"
+    "bitcore-lib": "https://github.com/zcore-coin/zcoreapp-2.0-bitcore-lib"
   }
 }
